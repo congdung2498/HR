@@ -1,0 +1,384 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HR_ViettelPost - UserProfile</title>
+    <meta name="description" content="Sufee Admin - HTML5 Admin Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-icon.png">
+    <link rel="icon" type="image/png" href="../images/icons/logo4.png"/>
+
+
+    <link rel="stylesheet" href="../vendors/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../vendors/themify-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="../vendors/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="../vendors/selectFX/css/cs-skin-elastic.css">
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../select-search/select2.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+<!-- Left Panel -->
+
+<aside id="left-panel" class="left-panel">
+    <div w3-include-html="menu.html"></div>
+</aside><!-- /#left-panel -->
+
+<!-- Left Panel -->
+
+<!-- Right Panel -->
+
+<div id="right-panel" class="right-panel">
+
+    <!-- Header-->
+    <header id="header" class="header">
+
+        <div class="header-menu">
+
+            <div class="col-sm-7">
+                <a id="menuToggle" class="menutoggle pull-left"><i class="fa fa fa-tasks"></i></a>
+                <div class="header-left">
+                    <button class="search-trigger"><i class="fa fa-search"></i></button>
+                    <div class="form-inline">
+                        <form class="search-form">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search ..." aria-label="Search">
+                            <button class="search-close" type="submit"><i class="fa fa-close"></i></button>
+                        </form>
+                    </div>
+
+                    <div class="dropdown for-notification">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="notification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-bell"></i>
+                            <span class="count bg-danger">3</span>
+                        </button>
+                        <div class="dropdown-menu"  aria-labelledby="notification" style="max-width: 300px;border: 1px solid #f4f4f4;'">
+                            <p class="red bg-flat-color-1" style="color: white">You have 3 Notification</p>
+                            <div id="noti"  style="overflow: auto;">
+                                <a class="dropdown-item media" href="#">
+                                    <i class="fa fa-check"></i>
+                                    <p>Server #1 overloaded.jvuyfutfyfutfytfytfytsfkuhr lgusehlrgbseviugseiurgbeghvseuigduhg erver #1 overloaded.jvuyfutfyfutfytfytfytsfkuhr lgusehlrgbseviugseiurgbeghvseuigduhg erver #1 overloaded.jvuyfutfyfutfytfytfytsfkuhr lgusehlrgbseviugseiurgbeghvseuigduhg erver #1 overloaded.jvuyfutfyfutfytfytfytsfkuhr lgusehlrgbseviugseiurgbeghvseuigduhg erver #1 overloaded.jvuyfutfyfutfytfytfytsfkuhr lgusehlrgbseviugseiurgbeghvseuigduhg erver #1 overloaded.jvuyfutfyfutfytfytfytsfkuhr lgusehlrgbseviugseiurgbeghvseuigduhg isldughsudihrgihgnesvrhngieshnr</p>
+                                </a>
+                                <a class="dropdown-item media " href="#">
+                                    <i class="fa fa-info"></i>
+                                    <p>Server #2 overloaded.</p>
+                                </a>
+                                <a class="dropdown-item media" href="#">
+                                    <i class="fa fa-warning"></i>
+                                    <p>Server #3 overloaded.</p>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-5">
+                <div class="user-area dropdown float-right">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img class="user-avatar rounded-circle" src="../images/admin.jpg" alt="User Avatar">
+                    </a>
+
+                    <div class="user-menu dropdown-menu">
+                        <a class="nav-link" href="Account.html"><i class="fa fa-user"></i> My Profile</a>
+
+                        <a id ="logout" class="nav-link" href="#"><i class="fa fa-power-off"></i> Logout</a>
+                    </div>
+                </div>
+
+                <div class="language-select dropdown" id="language-select">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown"  id="language" aria-haspopup="true" aria-expanded="true">
+                        <i class="flag-icon flag-icon-vn"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="language">
+                        <div class="dropdown-item">
+                            <span class="flag-icon flag-icon-fr"></span>
+                        </div>
+                        <div class="dropdown-item">
+                            <i class="flag-icon flag-icon-es"></i>
+                        </div>
+                        <div class="dropdown-item">
+                            <i class="flag-icon flag-icon-us"></i>
+                        </div>
+                        <div class="dropdown-item">
+                            <i class="flag-icon flag-icon-it"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </header><!-- /header -->
+
+    <!-- Header-->
+
+    <div class="breadcrumbs">
+        <div class="col-sm-4">
+            <div class="page-header float-left">
+                <div class="page-title">
+                    <h1>Thông tin</h1>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <div class="page-header float-right">
+                <div class="page-title">
+                    <ol class="breadcrumb text-right">
+                        <li><a href="#">Nhân sự</a></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content mt-3">
+
+        <!--        //loading-->
+        <div id="wait" style="  top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+            z-index: 9999;
+            background: url('../images/Loading(3).gif') 50% 50% no-repeat rgba(0, 0, 0, 0.33);
+            font: 0px/0 a;
+            text-shadow: none;
+            padding: 1em 1.2em;
+            position: fixed !important;"><br></div>
+        <div class="animated fadeIn">
+            <!--        //loading-->
+
+        <div class="animated fadeIn">
+
+            <div class="card">
+                <div class="card-body">
+                    <div class="container-fluid" id="aaa">
+                        <div class="row">
+                            <main role="main" class="col-lg-12">
+
+                                <div class="container-fluid" style="margin-bottom: 100px">
+                                    <div class="col-md-4">
+                                        <div class="row"  >
+                                            <div class="col-md-12">
+                                                <p style="margin-bottom: 0">Nhân viên:</p>
+                                                <input id="edit-maNV" class="form-control" style="display: inline-block" placeholder="Mã nhân viên" disabled>
+
+                                            </div>
+                                            <div class="col-md-12 mt-1">
+                                                <p style="margin-bottom: 0"> Tháng:</p>
+                                                <select id="select-thang" class="form-control ">
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <button id="btn-xem" class="btn btn-outline-primary" style="margin-bottom: 15px; margin-top: 15px">Xem <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="row" >
+                                            <div class="col-lg-12 " style="border: 1px solid #9a9c9d;; margin : 0 auto; font-family: auto; font-size: larger;">
+                                                <div class="row">
+                                                    <div class="col-lg-12 text-center " style="background: #1ab3cc; color: #ffffff">
+                                                        <div><strong>TỔNG CÔNG TY CỔ PHẦN BƯU CHÍNH VIETTEL</strong></div>
+                                                        <div><strong>CÔNG TY TNHH MTV CÔNG NGHỆ BƯU CHÍNH VIETTEL</strong></div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-lg-12 text-center" style="color: #FF0000; margin-top: 20px">
+                                                        <div><strong><h2><b>PHIẾU BÁO CÁO THU NHẬP</b></h2></strong></div>
+                                                        <div>
+                                        <span>
+                                            <h5 style="display: inline-block">V/v cấp tiền lương/thù lao tháng </h5></span>
+                                                            <b><i><span id="txt-thang1"></span></i></b>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <span>Kính gửi: Đ/c  </span> <span>  <h3 id="txt-hoten"
+                                                                                        style="display: inline-block"></h3>   </span>
+                                                <div>Phòng Tài chính tổng hợp trân trọng thông báo đến đồng chí về việc cấp lương/thù
+                                                    lao tháng
+                                                    <span id="txt-thang2"></span> như sau:
+                                                </div>
+                                                <br>
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <div>
+                                                            <span>Ngày công chế độ: </span>
+                                                            <span id="txt-ngayCongCheDo"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>Ngày công đi làm thực tế: </span>
+                                                            <span id="txt-ngayConglamThucTe"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div>
+                                                            <span>Ngày nghỉ lễ/phép: </span>
+                                                            <span id="txt-ngayNghiLe"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>Ki tháng: </span>
+                                                            <span id="txt-KI"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div>
+                                        <span><h5
+                                            style="display: inline-block"><strong>I. Tổng thu nhập: </strong></h5></span>
+                                                    <span id="txt-tongThuNhap"></span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <div>
+                                                            <span>Lương chức danh: </span>
+                                                            <span id="txt-luongChucDanh"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>Lương thâm niên:  </span>
+                                                            <span id="txt-luongThamNien"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>Lương lễ/phép: </span>
+                                                            <span id="txt-luongLePhep"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>Điều chỉnh bổ sung:  </span>
+                                                            <span id="txt-dieuChinhBoSung"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div>
+                                                            <span>Phụ cấp đoàn thể:  </span>
+                                                            <span id="txt-phuCapDoanThe"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>Phụ cấp ăn ca: </span>
+                                                            <span id="txt-phuCapAnCa"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>Phụ cấp điện thoại: </span>
+                                                            <span id="txt-phuCapDienThoai"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>Bồi dưỡng trực: </span>
+                                                            <span id="txt-boiDuongTruc"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div>
+                                        <span><h5><strong
+                                            style="display: inline-block">II. Các khoản giảm trừ: </strong></h5></span>
+                                                    <span id="txt-cacKhoanGiamTru"></span>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <div>
+                                                            <span>BHXH: </span>
+                                                            <span id="txt-BHXH"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>BHYT: </span>
+                                                            <span id="txt-BHYT"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>Thuế TNCN: </span>
+                                                            <span id="txt-TNCN"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-lg-6">
+                                                        <div>
+                                                            <span>BHTN: </span>
+                                                            <span id="txt-BHTN"></span>
+                                                        </div>
+                                                        <div>
+                                                            <span>KPCĐ: </span>
+                                                            <span id="txt-kinhPhiCongDoan"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <div>
+                                    <span><h5
+                                        style="display: inline-block"><strong>III. Số tiền chuyển khoản: </strong></h5></span>
+                                                    <span id="txt-soTienChuyenKhoan"></span>
+                                                </div>
+                                                <div>
+                                                    <span>Số tài khoản nhận tiền: </span>
+                                                    <span id="txt-SoTaiKhoanNhanTien"></span>
+                                                </div>
+                                                <div>
+                                                    <span>Được mở tại: </span>
+                                                    <span id="txt-nganHangHuong"></span>
+                                                </div>
+                                                <br>
+                                                <div>*************************************************</div>
+                                                <div><strong>Mọi thông thông tin đồng chí có thể liên hệ tới Mr. Thành</strong>
+                                                </div>
+                                                <div>
+                                                    <span><strong>Phone: </strong></span>
+                                                    <span style="color: #3b9dcc"><strong>0986 367 739</strong></span>
+                                                </div>
+                                                <div>
+                                                    <span><strong>Mail: </strong></span>
+                                                    <span style="color: #3b9dcc"><strong>thanhtd@viettelpost.com.vn</strong></span>
+                                                </div>
+                                                <div><strong>Trân trọng!</strong></div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </main>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- .animated -->
+    </div><!-- .content -->
+</div><!-- /#right-panel -->
+<!-- Right Panel -->
+
+<script src="../vendors/jquery/dist/jquery.min.js"></script>
+<script src="../vendors/popper.js/dist/umd/popper.min.js"></script>
+<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/w3data.js"></script>
+<script>
+    w3IncludeHTML('',"#salary");
+</script>
+<script src="../js/jquerytoaster.js"></script>
+<script src="../js/cookie.js"></script>
+<script src="../select-search/select2.min.js"></script>
+<script src="../js/general.js"></script>
+<script src="js/user_report.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+

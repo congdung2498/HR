@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-sm navbar-default">
+
+    <div class="navbar-header">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="images/logoVTPT.png"/></a>
+        <a class="navbar-brand hidden" href="index.html">VP</a>
+    </div>
+
+    <div id="main-menu" class="main-menu collapse navbar-collapse">
+        <ul class="nav navbar-nav" style="">
+            <li id="home">
+                <a href="index.html"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
+            </li>
+            <li id="manageStaff">
+                <a href="ManageStaff.html"> <i class="menu-icon fa fa-users"></i>Danh sách nhân viên </a>
+            </li>
+            <li id="recruitment">
+                <a href="Recruitment.html"><i class="menu-icon fa fa-user-plus" aria-hidden="true"></i>Tuyển dụng </a>
+            </li>
+<!--            <li id="timeKeeping">-->
+<!--                <a href="TimeKeeping.html"> <i class="menu-icon fa fa-calendar" aria-hidden="true"></i>Chấm công </a>-->
+<!--            </li>-->
+            <li class="menu-item-has-children dropdown" id="salary">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Lương</a>
+                <ul class="sub-menu children dropdown-menu">
+                    <li><i class="fa fa-file-text-o"></i><a href="Report.html">Báo cáo</a></li>
+                    <li><i class="fa fa-bar-chart" aria-hidden="true"></i><a href="ReportChart.html">Chấm công</a></li>
+                </ul>
+            </li>
+            <li class="menu-item-has-children dropdown" id="tinTuc">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-newspaper-o" aria-hidden="true"></i>Tin tức</a>
+                <ul class="sub-menu children dropdown-menu">
+                    <li><i class="menu-icon fa fa-list"></i><a href="News.html">Danh sách</a></li>
+                    <li><i class="fa fa-tag" aria-hidden="true"></i><a href="Category.html">Danh mục</a></li>
+                    <li><i class="menu-icon fa fa-plus"></i><a href="addNews.html">Đăng tin</a></li>
+                </ul>
+            </li>
+<!--            <li id="import">-->
+<!--                <a href="ImportData.html"> <i class="menu-icon fa fa-plus-circle"></i>Import Data</a>-->
+<!--            </li>-->
+            <li id="account">
+                <a href="Account.html"><i class="menu-icon fa fa-user-circle" aria-hidden="true"></i>Account</a>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
+<style>
+    /*.nav li a{*/
+    /*    font-size: inherit !important;*/
+    /*}*/
+</style>

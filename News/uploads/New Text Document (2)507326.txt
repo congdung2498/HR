@@ -1,0 +1,29 @@
+Microsoft Windows [Version 10.0.17134.407]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Dung-PC>ssh minhpnd@125.212.238.41
+The authenticity of host '125.212.238.41 (125.212.238.41)' can't be established.
+ECDSA key fingerprint is SHA256:zAw18bd8t4eYhlBqrYZIsE7OoYThlNXMRsDDRiUyIIw.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added '125.212.238.41' (ECDSA) to the list of known hosts.
+minhpnd@125.212.238.41's password:
+Permission denied, please try again.
+minhpnd@125.212.238.41's password:
+Permission denied, please try again.
+minhpnd@125.212.238.41's password:
+Last failed login: Thu Apr 18 11:33:50 +07 2019 from 27.72.105.188 on ssh:notty
+There were 2 failed login attempts since the last successful login.
+Last login: Thu Apr 18 10:51:27 2019 from 27.72.105.188
+[minhpnd@ATMA-Centos7 ~]$ ls
+cv                  identityserver4_log.txt  libgdiplus-2.10-10.el7.x86_64.rpm         Project
+files_20199326.zip  libgdiplus               mysql-community-release-el7-5.noarch.rpm
+[minhpnd@ATMA-Centos7 ~]$ ls
+cv                  identityserver4_log.txt  libgdiplus-2.10-10.el7.x86_64.rpm         Project
+files_20199326.zip  libgdiplus               mysql-community-release-el7-5.noarch.rpm
+[minhpnd@ATMA-Centos7 ~]$ cd Project/
+CV_management/  file_cv/        HR_ViettelPost/
+[minhpnd@ATMA-Centos7 ~]$ cd Project/
+[minhpnd@ATMA-Centos7 Project]$ ls
+CV_management  file_cv  HR_ViettelPost
+[minhpnd@ATMA-Centos7 Project]$ timed out waiting for input: auto-logout
+Connection to 125.212.238.41 closed.
